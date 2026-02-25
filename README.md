@@ -58,8 +58,8 @@ It is the execution log of Croofx.
 
 We are progressing through:
 
-Layer 1 — Core Enforcement Engine  
-Ending at: 🚀 v1.0.0 — Deterministic Patch Enforcement
+Layer 1 | Core Enforcement Engine  
+Ending at: 🚀 v1.0.0 | Deterministic Patch Enforcement
 
 Reference architecture:  
 See `docs/master-roadmap.md`
@@ -70,15 +70,15 @@ See `docs/master-roadmap.md`
 
 Key Milestones:
 
-- v0.0.1 — Deterministic Repo Scanner
-- v0.0.2 — Structured AI Contract Layer
-- v0.0.3 — Persistent Repo Snapshot
-- v0.0.4 — Patch Generation
-- v0.9.0 — Deterministic Patch Validator
-- 🚀 v1.0.0 — Enforcement Live
-- v1.5+ — Multi-Model & Token Control
-- v1.8 — Workflow Integration
-- v2.0 — SaaS Platform
+- v0.0.1 | Deterministic Repo Scanner
+- v0.0.2 | Structured AI Contract Layer
+- v0.0.3 | Persistent Repo Snapshot
+- v0.0.4 | Patch Generation
+- v0.9.0 | Deterministic Patch Validator
+- 🚀 v1.0.0 | Enforcement Live
+- v1.5+ | Multi-Model & Token Control
+- v1.8 | Workflow Integration
+- v2.0 | SaaS Platform
 
 Full roadmap: see `/docs`
 
