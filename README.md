@@ -1,6 +1,6 @@
 # 🧠 CrooFx RoadMap
 
-This repository documents the day-to-day evolution of [**Croofx**](https://github.com/croovi-org/croofx) — a deterministic AI execution control layer between LLMs and production systems.
+This repository documents the day-to-day evolution of [**Croofx**](https://github.com/croovi-org/croofx) | a deterministic AI execution control layer between LLMs and production systems.
 
 It serves as:
 
@@ -61,9 +61,6 @@ We are progressing through:
 Layer 1 | Core Enforcement Engine  
 Ending at: 🚀 v1.0.0 | Deterministic Patch Enforcement
 
-Reference architecture:  
-See `docs/master-roadmap.md`
-
 ---
 
 ## 📌 Roadmap Snapshot
@@ -79,8 +76,6 @@ Key Milestones:
 - v1.5+ | Multi-Model & Token Control
 - v1.8 | Workflow Integration
 - v2.0 | SaaS Platform
-
-Full roadmap: see `/docs`
 
 ---
 
