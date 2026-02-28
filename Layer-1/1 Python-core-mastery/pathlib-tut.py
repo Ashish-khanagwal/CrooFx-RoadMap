@@ -9,6 +9,7 @@ file = repo / "src" / "main.py"
 # It means join these paths in an OS-safe way.
 # Internally it calls something like:
 # repo.joinpath("src").joinpath("main.py")
+# this doesn't create folders, it only creates a path object in the memory.
 
 print(file)
 print(type(file))
@@ -32,3 +33,9 @@ print(project_file.parts)
 home = Path.home()
 print(home)
 # Give me the home directory of the home user.
+
+
+print(repo.is_absolute())
+print(project.is_absolute())
+print(fastapp.is_absolute())
+print(home.is_absolute())
