@@ -34,6 +34,16 @@ home = Path.home()
 print(home)
 # Give me the home directory of the home user.
 
+project1 = Path("/project1")
+project2 = Path("project2")
+
+file1 = project1 / "src"
+file2 = project2 / "src"
+
+print(file1)  # -> Absolute path
+print(file2)  # -> Relative path
+
+# Absolute path
 
 print(repo.is_absolute())
 print(project.is_absolute())
