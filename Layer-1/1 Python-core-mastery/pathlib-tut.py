@@ -45,6 +45,16 @@ print(file2)  # -> Relative path
 
 # Absolute path
 
+
+p1 = Path("/a") / "b"
+p2 = Path("a") / "b"
+
+print(p1)
+print(p2)
+
+print(p1.is_absolute())
+print(p2.is_absolute())
+
 print(repo.is_absolute())
 print(project.is_absolute())
 print(fastapp.is_absolute())
