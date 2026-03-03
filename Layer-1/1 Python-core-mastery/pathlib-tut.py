@@ -34,17 +34,23 @@ home = Path.home()
 print(home)
 # Give me the home directory of the home user.
 
+# Absolute path -> A path that starts from the root of the filesystem.
 project1 = Path("/project1")
+# Go to the root of the computer -> then find folder project1.
+
+# Relative path -> A path that starts from your current working directory.
 project2 = Path("project2")
+# Looks for project2 inside the folder where the script is running.
 
 file1 = project1 / "src"
 file2 = project2 / "src"
 
+# Joining paths does not change absolute/relative nature.
+# If the base path is relative -> result is relative.
+# If the base path is absolute -> result is absolute.
+
 print(file1)  # -> Absolute path
 print(file2)  # -> Relative path
-
-# Absolute path
-
 
 p1 = Path("/a") / "b"
 p2 = Path("a") / "b"
