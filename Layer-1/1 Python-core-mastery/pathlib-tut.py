@@ -76,6 +76,10 @@ print(repr(path.parent))  # Everything except the last part 'usr'
 
 print(path.parts)
 
+new_path = path.parent / (path.stem + "_flashcard.txt")
+print(repr(new_path))
+# / is used to concatenate the path
+
 p = Path("archive.tar.gz")
 
 print(p.suffix)  # As it only prints the last extension '.gz'
@@ -89,3 +93,4 @@ print(t.parent)  # 'project/src/core'
 print(t.stem)  # 'main'
 print(t.parent.parent)  # 'project/src'
 print(t.parent.parent.parent)  # 'project'
+print(repr(t))
