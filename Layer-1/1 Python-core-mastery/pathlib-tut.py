@@ -51,6 +51,7 @@ file2 = project2 / "src"
 
 print(file1)  # -> Absolute path
 print(file2)  # -> Relative path
+print(file1.cwd())
 
 p1 = Path("/a") / "b"
 p2 = Path("a") / "b"
@@ -65,3 +66,26 @@ print(repo.is_absolute())
 print(project.is_absolute())
 print(fastapp.is_absolute())
 print(home.is_absolute())
+
+path = Path("usr/file01.txt")
+
+print(repr(path.name))  # final component of the path 'file01.txt'
+print(repr(path.stem))  # file name without extension 'file01'
+print(repr(path.suffix))  # the extension, it only returns the last extension '.txt'
+print(repr(path.parent))  # Everything except the last part 'usr'
+
+print(path.parts)
+
+p = Path("archive.tar.gz")
+
+print(p.suffix)  # As it only prints the last extension '.gz'
+print(p.suffixes)  # It will print all extensions '.tar, .gz'
+print(p.stem)  # .stem only removes the last extension.
+
+t = Path("project/src/core/main.py")
+print(t.name)  # 'main.py'
+print(t.suffix)  # '.py'
+print(t.parent)  # 'project/src/core'
+print(t.stem)  # 'main'
+print(t.parent.parent)  # 'project/src'
+print(t.parent.parent.parent)  # 'project'
