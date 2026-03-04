@@ -47,3 +47,8 @@ print(repo_root)
 p1 = Path("a/../b")
 print(p1.absolute())
 print(p1.resolve())
+
+if repo.is_symlink():
+    print("this is a symlink")
+else:
+    print("Not a symlink")
