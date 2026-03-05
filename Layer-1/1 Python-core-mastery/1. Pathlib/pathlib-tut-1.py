@@ -52,3 +52,6 @@ if repo.is_symlink():
     print("this is a symlink")
 else:
     print("Not a symlink")
+
+
+print(Path.cwd())
