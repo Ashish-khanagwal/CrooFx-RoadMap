@@ -24,7 +24,7 @@ print(my_file.suffix)
 p = Path(".").resolve()
 print("path: ", p)
 
-# __file__ used for current directory or file.
+# __file__ used for current directory or file
 p1 = Path(__file__).resolve().parent
 print(p1)
 
